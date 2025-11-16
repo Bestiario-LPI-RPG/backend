@@ -21,6 +21,8 @@ Instalar dependências:
 cd bestiario-rpg-backend
 npm install
 
+<img width="393" height="37" alt="image" src="https://github.com/user-attachments/assets/828a0ce6-c68a-4a56-806c-8a68b4be9ad4" />
+
 Verificar se o MongoDB está em execução:
 
 net start MongoDB
@@ -28,6 +30,8 @@ net start MongoDB
 Iniciar o servidor:
 
 node src/server.js
+
+<img width="636" height="161" alt="image" src="https://github.com/user-attachments/assets/1899134a-69e4-470c-a959-173f5d3f80d1" />
 
 A API ficará disponível em:
 
@@ -42,8 +46,10 @@ Exemplo de criação (POST /creatures):
   "level": 85,
   "habitat": "Montanhas Nevadas",
   "imageUrl": null,
-  "imageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUg..."
+  "imageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUg"
 }
+
+<img width="1154" height="482" alt="image" src="https://github.com/user-attachments/assets/6493b198-8c07-4bb3-b6ac-45722f6a406a" />
 
 Exemplo de edição (PUT /creatures/:id):
 
@@ -54,6 +60,8 @@ Exemplo de edição (PUT /creatures/:id):
   "habitat": "Alpes Brancos",
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPn7N6AWlpIWSuYqY4XjrS90SNrsZKf1ROVg&s"
 }
+
+<img width="633" height="526" alt="image" src="https://github.com/user-attachments/assets/50dc0c9a-cfc5-491d-81a0-c00f489545fc" />
 
 Resposta de listagem (GET /creatures):
 
