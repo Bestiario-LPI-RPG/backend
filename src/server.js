@@ -7,7 +7,7 @@ const creatureRoutes = require("./routes/creatureRoutes");
 const app = express();
 
 app.use(cors());
-app.use(express.json({ limit: "10mb" }));
+app.use(express.json({ limit: "100mb" }));
 app.use("/creature", creatureRoutes);
 
 app.get("/", (req, res) => {
