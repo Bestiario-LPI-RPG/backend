@@ -23,7 +23,7 @@ mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
-.then(() => console.log("MongoDB conectado:", isProduction ? "Atlas" : "Local"))
+.then(() => console.log("MongoDB conectado corretamente:", isProduction ? "Atlas" : "Local"))
 .catch(err => console.error("Erro ao conectar no banco de dados:", err));
 
 const PORT = process.env.PORT || 3001;
